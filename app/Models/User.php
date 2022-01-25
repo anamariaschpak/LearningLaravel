@@ -24,7 +24,7 @@ class User extends Authenticatable
     //     'username'
     // ];
 
-    protected $guarded = [];
+    // protected $guarded = []; // not needed anymore bcs I disabled mass assignable restrictions
 
     /**
      * The attributes that should be hidden for serialization.
